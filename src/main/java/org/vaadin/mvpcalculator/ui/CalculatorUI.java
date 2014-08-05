@@ -8,11 +8,13 @@ import org.vaadin.mvpcalculator.ui.main.view.CalculatorViewImpl;
 import org.vaadin.mvpcalculator.ui.other.presenter.TestOtherPresenter;
 import org.vaadin.mvpcalculator.ui.other.view.TestOtherViewImpl;
 
+import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.Title;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.ui.UI;
 
 @Component
+@Theme("dawn")
 @Scope("prototype")
 @SuppressWarnings("serial")
 @Title("MVP Calculator")

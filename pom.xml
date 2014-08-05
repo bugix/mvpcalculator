@@ -71,6 +71,12 @@
 			<artifactId>vaadin-themes</artifactId>
 			<version>${vaadin.version}</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.peimari</groupId>
+			<artifactId>dawn</artifactId>
+			<version>1</version>
+		</dependency>
 
 		<!-- Spring Vaadin Integration -->
 		<dependency>

@@ -47,6 +47,8 @@ public class CalculatorViewImpl extends CustomComponent
         Button button = new Button("Go To OtherView");
         button.addClickListener(this);
         layout.addComponent(button,0,5,3,5);
+        layout.setMargin(true);
+        layout.setSpacing(true);
         setCompositionRoot(layout);
         
     }
